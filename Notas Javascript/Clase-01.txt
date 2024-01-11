@@ -1,0 +1,54 @@
+Clase-01: Conceptos generales: Sintaxis y variables
+
+¿Como escribir codigo JS?
+
+    <script src="./index.js"></script>
+
+Variables y Valores:
+Que es una variable:es un espacio reservado en la memorario, que puede cambiar de contenido a lo largo de ejecución de un programa.
+Existen 3 maneras de escribir variables:
+
+var (no se usa pero existe)
+Let y const 
+let: se utiliza para declarar variables que pueden ser reasignadas (se puede modificar. Tiene un ambito de bloque, que la variable solo es valida dentro del bloque en el que se declara.
+
+Ejemplo: let nombreDeLaVariable = valor;
+
+Que tipo de valores podemos encontrar alojados en una variable: 
+
+Ejemplo: 
+let numero = 15; Number
+let cadenaDeTexto = "Daniel"; string
+let booleanos = true; // booleano
+
+Que mas se puede alojar en una variable?
+-Arreglos o arrays
+-Objetos
+-Nulo o null
+-Indefinido o undefined
+-Funciones o function
+
+const: se utiliza esta variable cuando el valor no necesita ser reasignado (modificado)
+Ejemplo: const NOMBRE_APELLIDO = "Daniel";
+
+
+Declaración e inicialización:
+Declaración: let edad; estoy reservando el nombre de la variable y despues podemos inicializarlo cuando querramos.
+
+Inicialización: es el proceso en el cual asignamos el valor inicial de la variable 
+edad = 25;
+Las variables tienen que tener asignado un nombre que haga referencia al dato almanecado.
+
+Operaciones basicas: son operaciones aritmeticas.
+Ejemplo:
+let numeroUno = 4;
+let numeroDos = 5;
+
+let suma = numeroUno + numeroDos;
+c
+
+
+
+
+
+
