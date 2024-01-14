@@ -1,0 +1,81 @@
+body {
+    padding-top: 85px;
+}
+
+header {
+    background-color: black;
+}
+
+#navbar {
+    padding: 0px;
+}
+.banner {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+border-radius: 20px;
+box-shadow: 0px 0px 34px 8px rgba(126, 227, 245, 1);
+}
+
+
+h2 {
+margin: 30px 70px;
+font-size: 28px;
+}
+
+.card {
+    cursor: pointer;
+    height: 100%;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-p {
+text-align: center;
+font-size: 14px;
+margin: 12px;
+padding: 10px;
+}
+
+.iconos-footer {
+    text-align: center;
+    margin: 12px;
+}
+@media screen and (max-width:750px) {
+    .banner {
+display: none;
+    }
+
+ .card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .footer-p {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .iconos-footer {
+        margin: 5px;
+    }
+}
