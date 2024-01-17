@@ -199,6 +199,7 @@ if(ingresaProducto === producto1 ){
 else {
     alert ("Sin stock")
 }*/
+
 let ingresaNombre = prompt ("Ingresa tu nombre")
 let ingresaContraseña = prompt ("Ingresa tu contraseña")
 let nombreDeUsuario = "admin" 
@@ -207,6 +208,9 @@ let contraseñaDeUsuario = "123456"
 
 if (ingresaNombre === nombreDeUsuario && ingresaContraseña === contraseñaDeUsuario){
     alert ("Contraseña correcta")
+}
+else if (ingresaNombre == "" ||ingresaContraseña == ""){
+    alert ("Ingreso invalido")
 }
 else {
     alert ("Contraseña Incorrecta")
