@@ -178,7 +178,7 @@ else {
     console.log("Acceso denegado")
 }*/
 
-let estaRegistrado = prompt ("Estas registrado?")
+/*let estaRegistrado = prompt ("Estas registrado?")
 let edad = prompt ("Cual es tu edad?")
 
 if (estaRegistrado === "si" && edad >= 18) {
@@ -186,4 +186,29 @@ if (estaRegistrado === "si" && edad >= 18) {
 }
 else{
     console.log ("Acceso denegado")
+}*/
+
+/*let ingresaProducto = prompt ("Ingrese el producto")
+let  producto1= "cafe"
+let producto2 = "leche"
+
+
+if(ingresaProducto === producto1 ){
+    alert ("Producto Disponible")
 }
+else {
+    alert ("Sin stock")
+}*/
+let ingresaNombre = prompt ("Ingresa tu nombre")
+let ingresaContraseña = prompt ("Ingresa tu contraseña")
+let nombreDeUsuario = "admin" 
+let contraseñaDeUsuario = "123456"
+
+
+if (ingresaNombre === nombreDeUsuario && ingresaContraseña === contraseñaDeUsuario){
+    alert ("Contraseña correcta")
+}
+else {
+    alert ("Contraseña Incorrecta")
+}
+
