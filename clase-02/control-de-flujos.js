@@ -178,6 +178,7 @@ else {
     console.log("Acceso denegado")
 }*/
 
+//EJERCICIO #1
 /*let estaRegistrado = prompt ("Estas registrado?")
 let edad = prompt ("Cual es tu edad?")
 
@@ -188,25 +189,38 @@ else{
     console.log ("Acceso denegado")
 }*/
 
-/*let ingresaProducto = prompt ("Ingrese el producto")
-let  producto1= "cafe"
-let producto2 = "leche"
+//EJERCICIO #2
 
+/*let enStock = true;
+let precioConDescuento= false;
 
-if(ingresaProducto === producto1 ){
-    alert ("Producto Disponible")
+if (enStock || precioConDescuento){
+    console.log ("producto disponible")
 }
 else {
-    alert ("Sin stock")
+    console.log ("producto agotado")
 }*/
 
-let ingresaNombre = prompt ("Ingresa tu nombre")
+//EJERCICIO #3 
+
+/*let iniciarSesion = prompt ("Has iniciado sesion? contestar con si o no")
+
+if (iniciarSesion === "no"){
+    console.log ("Por favor iniciar sesion")
+}
+else {
+    console.log("Bienvenido")
+}*/
+
+
+//EJERCICIO #4 MIO
+/*let ingresaNombre = prompt ("Ingresa tu nombre")
 let ingresaContraseña = prompt ("Ingresa tu contraseña")
 let nombreDeUsuario = "admin" 
 let contraseñaDeUsuario = "123456"
 
 
-if (ingresaNombre === nombreDeUsuario && ingresaContraseña === contraseñaDeUsuario){
+if (ingresaNombre === nombreDeUsuario && (ingresaContraseña === contraseñaDeUsuario)){
     alert ("Contraseña correcta")
 }
 else if (ingresaNombre == "" ||ingresaContraseña == ""){
@@ -214,5 +228,16 @@ else if (ingresaNombre == "" ||ingresaContraseña == ""){
 }
 else {
     alert ("Contraseña Incorrecta")
-}
+}*/
 
+//EJERCICIO #4 PROFESOR
+
+let nombreUsuario= prompt ("Ingresar nombre de usuario");
+let contraseñaUsuario = prompt ("Ingrese Contrasena")
+
+if (nombreUsuario === "admin" && (contraseñaUsuario === "secreta" || contraseñaUsuario === "123456" )){
+    console.log ("Puede acceder");
+}
+else{
+    console.log ("Acceso denegado")
+}
