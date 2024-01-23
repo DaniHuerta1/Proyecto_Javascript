@@ -160,5 +160,7 @@ switch (numeroDia){
                 console.log ("No existe el dia")
 }*/
 
+//EJEMPLOS EJERCICIOS:
+
 
 
