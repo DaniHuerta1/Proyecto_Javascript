@@ -1,5 +1,21 @@
 "use strict"
 
-alert ("Hola Bienvenido/a")
+alert ("Hola, Bienvenido/a");
 
-let email = prompt("Ingresa tu email")
+
+function verificarEmail (){
+    let preguntaSuscribir = prompt("¿Deseas suscribirte a nuestras novedades? \n 1)Si \n 2)No \n Responde con 1 o 2");
+    if (preguntaSuscribir == "1"){
+         alert ("A partir de ahora recibiras todas nuestras novedades")
+    }
+    else if (preguntaSuscribir != "1" && preguntaSuscribir != "2"){
+        alert ("Por favor introduce una respuesta valida")
+    }
+    else {
+        alert ("Espero nuestra pagina sea de tu agrado!")
+    }
+}
+
+verificarEmail ();
+
+
