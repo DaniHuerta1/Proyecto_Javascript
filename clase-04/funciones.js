@@ -134,12 +134,17 @@ let suma = (a,b) => a + b;
 
 console.log (suma(num1, num2));
 
+alert ("Hola, Bienvenido/a");
+
 function verificarEmail (){
-    let preguntaSuscribir = parseFloat(prompt("¿Deseas suscribirte a nuestras novedades? \n 1)Si \n 2)No \n Responde con 1 o 2"));
+    let preguntaSuscribir = Number(prompt("¿Deseas suscribirte a nuestras novedades? \n 1)Si \n 2)No \n Responde con 1 o 2"));
     if (preguntaSuscribir == "1"){
          alert ("A partir de ahora recibiras todas nuestras novedades")
     }
-    else{
+    else if (preguntaSuscribir != "1" && preguntaSuscribir != "2"){
+        alert ("Por favor introduce una respuesta valida")
+    }
+    else {
         alert ("Espero nuestra pagina sea de tu agrado!")
     }
 }
