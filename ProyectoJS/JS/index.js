@@ -13,11 +13,10 @@ while (isNaN(preguntaSuscribir)){
     }
     else if (preguntaSuscribir != "1" && preguntaSuscribir != "2"){
         alert ("Por favor introduce una respuesta valida")
-    }
+}
     else {
         alert ("Espero nuestra pagina sea de tu agrado!")
     }
 }
 
 verificarEmail ();
-
