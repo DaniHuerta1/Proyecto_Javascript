@@ -1,6 +1,6 @@
 "use strict"
 
-/*alert ("Hola, Bienvenido/a");
+alert ("Hola, Bienvenido/a");
 
 function verificarEmail (){
     let preguntaSuscribir = Number(prompt("¿Deseas suscribirte a nuestras novedades? \n 1)Si \n 2)No \n Responde con 1 o 2"));
@@ -20,7 +20,7 @@ while (isNaN(preguntaSuscribir)){
     }
 }
 
-verificarEmail ();*/
+verificarEmail ();
 
 const productos = [
     {id: 1, nombre: "Ghost of tsushima", tipo: "Ps4", categoria: "accion y aventura", precio: 49.990},
