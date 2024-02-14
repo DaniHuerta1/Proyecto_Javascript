@@ -1,0 +1,19 @@
+
+	
+
+function ingresarNumero() {
+    let numero = Number(prompt("Ingrese un numero"));
+
+    while (isNaN(numero)) {
+        numero = Number(prompt("Ingrese un numero"));
+    }
+
+    return numero;
+}
+
+let num = ingresarNumero();
+
+console.log(num);
+
+
+
