@@ -1,0 +1,26 @@
+ [
+    {
+      "id": 1,
+      "image": "./img/JuegosPS4/ghostoftsushima.webp",
+      "nombre": "Ghost of tsushima",
+      "precio": 49990,
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "image": "./img/JuegosPS4/shadowps4.webp",
+      "nombre": "Shadow of the Colossus",
+      "precio": 21990,
+      "cantidad": 1
+    },
+    { "id": 3, "image": "./img/JuegosPS4/rdr2ps4euro.webp", "nombre": "Red Dead Redemption 2", "precio": 29990,   "cantidad": 1 },
+    { "id": 4,"image": "./img/JuegosPS4/unchartedcollectionps4.webp","nombre": "Uncharted Collection", "precio": 21990,   "cantidad": 1 },
+    { "id": 5,"image":"./img/JuegosPS4/Overcooked_20_20Overcooked_202_20PS4.webp", "nombre": "Overcooked 1 y 2", "precio": 32990,   "cantidad": 1 },
+    { "id": 6, "image":"./img/JuegosPS4/Stray-PS4.webp","nombre": "Stray", "precio": 45990,    "cantidad": 1 },
+    { "id": 7, "image":"./img/JuegosPS4/spiderman.webp","nombre": "Spider-Man Miles Morales", "precio": 20990,    "cantidad": 1 },
+    { "id": 8, "image":"./img/JuegosPS4/the-last-of-us.webp","nombre": "The Last of Us", "precio": 19990,    "cantidad": 1},
+    { "id": 9, "image":"./img/JuegosPS4/the-last-of-us2.webp","nombre": "The Last of Us 2", "precio": 24990,    "cantidad": 1},
+    { "id": 10, "image":"./img/JuegosPS4/TheWitcher3WildHuntCompleteEditionPS4.webp", "nombre": "The Witcher 3-Wild Hunt", "precio": 31990,    "cantidad": 1 },
+    { "id": 11, "image":"./img/JuegosPS4/watch-dogs.webp","nombre": "Watch Dogs", "precio": 24990,    "cantidad": 1},
+    { "id": 12, "image":"./img/JuegosPS4/WatchDogs2PS4.webp","nombre": "Watch Dogs 2", "precio": 24990,    "cantidad": 1}
+  ]
